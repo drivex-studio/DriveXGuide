@@ -1,0 +1,21 @@
+{
+  "name": "drivex-support-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for Drive X gaming marketplace: admin-managed product posts with Contact/Buy buttons.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["telegram-bot", "drivex"],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "dotenv": "^17.4.2",
+    "telegraf": "^4.16.3"
+  }
+}
